@@ -1,5 +1,6 @@
-package com.batch.shyun.batch.generator;
+package com.batch.shyun.batch.generator.generator;
 
+import com.batch.shyun.batch.generator.ApiOrderGenerateReader;
 import com.batch.shyun.domain.ApiOrder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
@@ -30,7 +31,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
 
-@Configuration
+//@Configuration
 @RequiredArgsConstructor
 public class ApiOrderGeneratePartitionJobConfiguration {
 
