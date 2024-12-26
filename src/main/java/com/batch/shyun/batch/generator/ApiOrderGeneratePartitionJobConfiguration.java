@@ -1,9 +1,8 @@
-package com.fastcampus.batchcampus.batch.generator;
+package com.batch.shyun.batch.generator;
 
 import com.batch.shyun.batch.generator.ApiOrderGenerateProcessor;
 import com.batch.shyun.batch.generator.ApiOrderGenerateReader;
 import com.batch.shyun.domain.ApiOrder;
-import com.fastcampus.batchcampus.domain.ApiOrder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
